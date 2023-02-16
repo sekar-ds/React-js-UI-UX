@@ -1,0 +1,114 @@
+.container {
+    font-size: 15px;
+    color:rgb(54, 51, 51);
+    display: flex;
+    margin-top: 20px;
+    float: right;
+    
+
+}
+.forms h3{
+    border-bottom: 1px solid rgb(224, 220, 220);
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color:gray;
+    
+    
+}
+
+  form{
+    margin-left: 20px;
+    margin-right: 10px;
+    border:1px solid rgb(224, 220, 220);
+    width: 360px;
+    height: 360px;    
+
+}
+.forms span{
+    color: red;
+}
+.forms  input{
+    margin-left: 120px;
+    display: grid;
+    padding: 3px;
+    margin-bottom: -11px;
+    margin-top: -19px;  
+    width: 200px;
+    cursor: pointer;
+    border:2px solid rgb(216, 236, 244) ;    
+}
+
+
+.forms input:hover{
+     border:2px solid skyblue ;
+}
+.form-input lable{
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+   font-weight: 630;
+   color: rgb(56, 50, 50);
+      
+}
+
+.forms .sec{
+   color:gray;
+   margin-left: 260px; 
+}
+.forms .color{
+    height: 50px;
+    background-color: rgba(208, 213, 218, 0.484);
+    margin-left: 18px;
+    margin-right: 10px;
+    
+}
+.container1{
+    padding: 10px;
+    margin-top: 10px;
+}
+.forms button{
+    float: right;
+    margin-left: 1px;
+    background-color: rgb(51, 51, 222);
+    color:rgb(239, 235, 235);
+    border: none;
+    padding: 10px;
+    width: 70px;
+    height: 30px;
+    justify-items: center;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.forms button:hover{
+    background-color: blue;
+}
+.forms .button-edit{
+    padding-right: 19px;
+    margin-top: -5px;
+    
+   
+}
+.button-edit .delete:hover{
+      background-color: red;
+}
+.button-edit .green:hover{
+    background-color:green;
+}
+@media(max-width:1080px){
+    
+    .forms{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-right: 18px;
+        
+    }
+    .forms .button-edit{
+        margin-right: -150px;
+        
+    }
+     
+}

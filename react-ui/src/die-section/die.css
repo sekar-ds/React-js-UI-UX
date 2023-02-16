@@ -1,0 +1,118 @@
+.section{
+    display: flex;
+    margin-top: 5px;
+   margin-left: 10px;
+}
+.top-container{
+    display:flex;
+}
+.section .header2{
+    margin-left: 20px;
+}
+.header2 p{
+    padding-left: 300px;
+}
+.aside{
+    margin-top: 7px;
+    margin-left: 28px;
+    display: flex;
+}
+.countbutton{
+    margin-left: 80px;
+    border: 1px solid gray;
+   border-radius: 3px;
+}
+.countbutton button{
+    width: 35px;
+    height: 25px;
+    color: rgb(51, 51, 222);
+    background-color:rgba(162, 179, 194, 0.484) ;
+    border:none;
+    cursor: pointer;
+   
+}
+.countbutton button:hover{
+    background-color: gray;
+}
+.countbutton span{
+    padding: 18px;
+    cursor: pointer;
+}
+.countbutton span:hover{
+    color:blue;
+}
+.aside .setvalue{
+    width: 90px;
+    margin-left: 15px;
+    color: rgb(189, 198, 207);
+    background-color: rgb(51, 51, 222);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.aside .setvalue:hover{
+    background-color:green;
+}
+ .button-edit{
+     margin-left: 70px;
+     margin-top: 10px; 
+     
+  }
+  .button-edit .edit{
+    color:rgb(189, 198, 207);
+    background-color: rgb(51, 51, 222) ;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 90px;
+    cursor: pointer;
+    
+  }
+  .button-edit .edit:hover{
+    background-color: blue;
+  }
+   input{
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 2px;
+   }
+   
+   /*Responsive*/
+   @media (max-width:1080px){
+    .top-container{
+        display: block;
+    }
+    .section{
+        display: block;
+        margin-top: 40px;
+    }
+    .section .header2{
+        text-align: center;
+        margin-left: -20px;
+    }
+     p{
+        display:inline-flex;
+        margin-left: 1px;
+        margin-left: 20px;
+        
+       
+    }
+    .countbutton {
+        
+        margin-left: 8px;
+        height: 23px;
+        display: flex;
+        border:1px solid gray ;
+    } 
+    .countbutton  .count1{
+        margin-top: -17px;
+    }
+    .button-edit{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-left: -20px;
+    }
+   }
+

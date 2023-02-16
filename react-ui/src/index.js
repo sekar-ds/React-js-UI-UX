@@ -1,0 +1,32 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import Header from './header/header'
+import './header/header.css'
+import Form from './form/form'
+import Table from './table/table'
+import Die from './die-section/die'
+import Footer from './footer/footer'
+
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  
+  <React.StrictMode>
+    <Header/>
+    <Form/>
+    <Table/>
+    <Die/>
+    <Footer/>
+    
+  </React.StrictMode>
+  
+  
+
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
